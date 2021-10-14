@@ -74,8 +74,8 @@ begin
 
    w:=Image1.Picture.Width-1;
    h:=Image1.Picture.Height-1;
-  for x:=1 to 434  do begin
-      for y:=1 to 348 do begin
+  for x:=1 to w  do begin
+      for y:=1 to h do begin
 
       rgb:=ColorToRgb(Image1.Canvas.Pixels[x,y]);
       RedGreenBlue(rgb, R, G, B);

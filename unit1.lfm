@@ -3,9 +3,9 @@ object Form1: TForm1
   Height = 600
   Top = 127
   Width = 1300
-  Caption = 'Конвертор в оттенки серого'
-  ClientHeight = 0
-  ClientWidth = 0
+  Caption = 'Конвертор в оттенки серого(Хусаинова Л.Р)'
+  ClientHeight = 580
+  ClientWidth = 1300
   Menu = MainMenu1
   LCLVersion = '2.0.10.0'
   object Button1: TButton

@@ -54,18 +54,18 @@ end;
 
 procedure TForm1.MenuItem3Click(Sender: TObject);
 begin
-        if SaveDialog1.Execute then begin
+
 
             jpg:= TJPEGImage.Create;
             try
             jpg.Assign(Image2.Picture.Graphic);
-            jpg.SaveToFile(SaveDialog1.FileName);
+            jpg.SaveToFile('2_1_ХусаиноваЛР_серый.jpg');
             finally
             jpg.Free;
   end;
 
 
-        end;
+
 end;
 
 procedure TForm1.Button1Click(Sender: TObject);
